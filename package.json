@@ -1,0 +1,30 @@
+{
+  "name": "cbn-tech-license-controller",
+  "version": "1.0.0",
+  "description": "CBN TECH Cryptographic License Controller API with MySQL database for Client Enclaves",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "cbn-tech",
+    "license",
+    "license-manager",
+    "crypto",
+    "aes-256",
+    "mysql",
+    "kiosk",
+    "api"
+  ],
+  "author": "CBN TECH Engineering",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "mysql2": "^3.10.3"
+  }
+}
